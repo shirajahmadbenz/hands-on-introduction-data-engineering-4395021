@@ -1,0 +1,110 @@
+2024-04-29 06:16:21,150 INFO - Starting the scheduler
+2024-04-29 06:16:21,151 INFO - Processing each file at most -1 times
+2024-04-29 06:16:21,157 INFO - Launched DagFileProcessorManager with pid: 8798
+2024-04-29 06:16:21,159 INFO - Resetting orphaned tasks for active dag runs
+2024-04-29 06:16:21,175 INFO - Configured default timezone Timezone('UTC')
+2024-04-29 06:21:21,696 INFO - Resetting orphaned tasks for active dag runs
+2024-04-29 06:25:05,876 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Referer: https://didactic-spoon-wrv65jwvx5443w4.github.dev/
+X-Request-Id: b4ca9b41023d5d48575f6d52a499539f
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: didactic-spoon-wrv65jwvx5443w4-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+2024-04-29 06:25:05,877 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-04-29 06:25:06,158 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: https://didactic-spoon-wrv65jwvx5443w4-8793.app.github.dev/
+X-Request-Id: 30d23168364ff6a149e5111d25d5bd91
+X-Real-Ip: 10.240.0.69
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: didactic-spoon-wrv65jwvx5443w4-8793.app.github.dev
+X-Forwarded-For: 10.240.0.69
+Proxy-Connection: Keep-Alive
+
+.
+2024-04-29 06:25:06,158 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2024-04-29 06:26:21,967 INFO - Resetting orphaned tasks for active dag runs
+2024-04-29 06:26:54,666 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 06:26:55,675 INFO - Sending Signals.SIGTERM to group 8798. PIDs of all processes in the group: [8798]
+2024-04-29 06:26:55,675 INFO - Sending the signal Signals.SIGTERM to group 8798
+2024-04-29 06:26:55,936 INFO - Process psutil.Process(pid=8798, status='terminated', exitcode=0, started='06:16:20') (8798) terminated with exit code 0
+2024-04-29 06:26:55,938 INFO - Sending Signals.SIGTERM to group 8798. PIDs of all processes in the group: []
+2024-04-29 06:26:55,938 INFO - Sending the signal Signals.SIGTERM to group 8798
+2024-04-29 06:26:55,939 INFO - Sending the signal Signals.SIGTERM to process 8798 as process group is missing.
+2024-04-29 06:26:55,939 INFO - Exited execute loop
+2024-04-29 06:27:09,235 INFO - Starting the scheduler
+2024-04-29 06:27:09,235 INFO - Processing each file at most -1 times
+2024-04-29 06:27:09,250 INFO - Launched DagFileProcessorManager with pid: 13927
+2024-04-29 06:27:09,252 INFO - Resetting orphaned tasks for active dag runs
+2024-04-29 06:27:09,267 INFO - Configured default timezone Timezone('UTC')
+2024-04-29 06:28:15,662 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 06:28:16,667 INFO - Sending Signals.SIGTERM to group 13927. PIDs of all processes in the group: [13927]
+2024-04-29 06:28:16,668 INFO - Sending the signal Signals.SIGTERM to group 13927
+2024-04-29 06:28:16,975 INFO - Process psutil.Process(pid=13927, status='terminated', exitcode=0, started='06:27:08') (13927) terminated with exit code 0
+2024-04-29 06:28:16,978 INFO - Sending Signals.SIGTERM to group 13927. PIDs of all processes in the group: []
+2024-04-29 06:28:16,978 INFO - Sending the signal Signals.SIGTERM to group 13927
+2024-04-29 06:28:16,982 INFO - Sending the signal Signals.SIGTERM to process 13927 as process group is missing.
+2024-04-29 06:28:16,983 INFO - Exited execute loop
+2024-04-29 06:31:09,679 INFO - Starting the scheduler
+2024-04-29 06:31:09,680 INFO - Processing each file at most -1 times
+2024-04-29 06:31:09,685 INFO - Launched DagFileProcessorManager with pid: 15783
+2024-04-29 06:31:09,686 INFO - Resetting orphaned tasks for active dag runs
+2024-04-29 06:31:09,695 INFO - Configured default timezone Timezone('UTC')
+2024-04-29 06:33:08,957 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 06:33:09,962 INFO - Sending Signals.SIGTERM to group 15783. PIDs of all processes in the group: [15783]
+2024-04-29 06:33:09,963 INFO - Sending the signal Signals.SIGTERM to group 15783
+2024-04-29 06:33:10,266 INFO - Process psutil.Process(pid=15783, status='terminated', exitcode=0, started='06:31:09') (15783) terminated with exit code 0
+2024-04-29 06:33:10,268 INFO - Sending Signals.SIGTERM to group 15783. PIDs of all processes in the group: []
+2024-04-29 06:33:10,268 INFO - Sending the signal Signals.SIGTERM to group 15783
+2024-04-29 06:33:10,268 INFO - Sending the signal Signals.SIGTERM to process 15783 as process group is missing.
+2024-04-29 06:33:10,269 INFO - Exited execute loop

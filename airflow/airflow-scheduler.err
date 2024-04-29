@@ -1,0 +1,9 @@
+[2024-04-29 06:31:09 +0000] [15780] [INFO] Starting gunicorn 20.1.0
+[2024-04-29 06:31:09 +0000] [15780] [INFO] Listening at: http://[::]:8793 (15780)
+[2024-04-29 06:31:09 +0000] [15780] [INFO] Using worker: sync
+[2024-04-29 06:31:09 +0000] [15781] [INFO] Booting worker with pid: 15781
+[2024-04-29 06:31:09 +0000] [15782] [INFO] Booting worker with pid: 15782
+[2024-04-29 06:33:10 +0000] [15780] [INFO] Handling signal: term
+[2024-04-29 06:33:10 +0000] [15781] [INFO] Worker exiting (pid: 15781)
+[2024-04-29 06:33:10 +0000] [15782] [INFO] Worker exiting (pid: 15782)
+[2024-04-29 06:33:10 +0000] [15780] [INFO] Shutting down: Master
