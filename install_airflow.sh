@@ -48,7 +48,6 @@ echo "Setting value of ${BRed}WTF_CSRF_ENABLED${NC} in webserver_config.py to ${
 sed -i -e '/WTF_CSRF_ENABLED =/ s/= .*/= False/' ${AIRFLOW_HOME}/webserver_config.py
 
 # Create User
-aairflow users create --username ali --firstname Shiraj --lastname Ahmad --role Admin --email shiraj.ahmad.benz@gmail.com --password ali007
+airflow users create --username ali --firstname Shiraj --lastname Ahmad --role Admin --email shiraj.ahmad.benz@gmail.com --password ali007
 
 echo "${BRed}This has only installed airflow, to run it, you will need to run "sh run_airflow.sh"${NC}"
-
