@@ -16,3 +16,11 @@
 2024-04-29 06:46:07,796 INFO - Launched DagFileProcessorManager with pid: 24658
 2024-04-29 06:46:07,798 INFO - Resetting orphaned tasks for active dag runs
 2024-04-29 06:46:07,821 INFO - Configured default timezone Timezone('UTC')
+2024-04-29 06:47:22,889 INFO - Exiting gracefully upon receiving signal 15
+2024-04-29 06:47:23,893 INFO - Sending Signals.SIGTERM to group 24658. PIDs of all processes in the group: [24658]
+2024-04-29 06:47:23,893 INFO - Sending the signal Signals.SIGTERM to group 24658
+2024-04-29 06:47:24,190 INFO - Process psutil.Process(pid=24658, status='terminated', exitcode=0, started='06:46:07') (24658) terminated with exit code 0
+2024-04-29 06:47:24,192 INFO - Sending Signals.SIGTERM to group 24658. PIDs of all processes in the group: []
+2024-04-29 06:47:24,193 INFO - Sending the signal Signals.SIGTERM to group 24658
+2024-04-29 06:47:24,193 INFO - Sending the signal Signals.SIGTERM to process 24658 as process group is missing.
+2024-04-29 06:47:24,194 INFO - Exited execute loop
