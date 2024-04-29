@@ -3,3 +3,7 @@
 [2024-04-29 08:17:32 +0000] [21449] [INFO] Using worker: sync
 [2024-04-29 08:17:32 +0000] [21450] [INFO] Booting worker with pid: 21450
 [2024-04-29 08:17:32 +0000] [21457] [INFO] Booting worker with pid: 21457
+[2024-04-29 08:23:39 +0000] [21449] [INFO] Handling signal: term
+[2024-04-29 08:23:39 +0000] [21450] [INFO] Worker exiting (pid: 21450)
+[2024-04-29 08:23:39 +0000] [21457] [INFO] Worker exiting (pid: 21457)
+[2024-04-29 08:23:39 +0000] [21449] [INFO] Shutting down: Master
