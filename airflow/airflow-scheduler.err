@@ -1,9 +1,5 @@
-[2024-04-29 07:41:54 +0000] [4863] [INFO] Starting gunicorn 20.1.0
-[2024-04-29 07:41:54 +0000] [4863] [INFO] Listening at: http://[::]:8793 (4863)
-[2024-04-29 07:41:54 +0000] [4863] [INFO] Using worker: sync
-[2024-04-29 07:41:54 +0000] [4865] [INFO] Booting worker with pid: 4865
-[2024-04-29 07:41:54 +0000] [4869] [INFO] Booting worker with pid: 4869
-[2024-04-29 07:46:06 +0000] [4863] [INFO] Handling signal: term
-[2024-04-29 07:46:06 +0000] [4865] [INFO] Worker exiting (pid: 4865)
-[2024-04-29 07:46:06 +0000] [4869] [INFO] Worker exiting (pid: 4869)
-[2024-04-29 07:46:06 +0000] [4863] [INFO] Shutting down: Master
+[2024-04-29 08:17:32 +0000] [21449] [INFO] Starting gunicorn 20.1.0
+[2024-04-29 08:17:32 +0000] [21449] [INFO] Listening at: http://[::]:8793 (21449)
+[2024-04-29 08:17:32 +0000] [21449] [INFO] Using worker: sync
+[2024-04-29 08:17:32 +0000] [21450] [INFO] Booting worker with pid: 21450
+[2024-04-29 08:17:32 +0000] [21457] [INFO] Booting worker with pid: 21457
